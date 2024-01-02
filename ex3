@@ -1,0 +1,5 @@
+create table Planets ( planet_id int, planet_name varchar(50) not null, diameter decimal, distance_from_sun decimal not null);
+select * from Planets;
+alter table Planets modify diameter decimal not null;
+create table Galaxies (galaxy_id int, galaxy_name varchar(50) not null, descriptions text, number_of_stars int);
+drop table Galaxies;
